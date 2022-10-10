@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Testing Kredim Mobile App">
+<test name = "Login" enabled="true">
+<parameter name="invalidPasswordMissing" value="12345"/>
+    <parameter name="validPhoneNumber" value="5393509493" />
+    <parameter name="validPassword" value="237529"/>
+    <parameter name="invalidPhoneNumberMissing" value="539350949"/>
+    <parameter name="NonMemberUserPhoneNumber" value="5000000000" />
+    <groups>
+        <run>
+            <include name="TEST"/>
+        </run>
+    </groups>
+    <classes>
+        <class name = "LoginPageTest" />
+    </classes>
+
+</test>
+</suite>
+

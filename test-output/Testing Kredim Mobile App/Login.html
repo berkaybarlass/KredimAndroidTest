@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>TestNG:  Login</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 10 09:54:39 TRT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>209 seconds (209119 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>TEST </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='LoginPageTest.emptyPasswordLogin()'><b>emptyPasswordLogin</b><br>Test class: LoginPageTest<br>Test method: The password were left blank and the login button was clicked<br>Parameters: 5393509493</td>
+<td></td>
+<td>24</td>
+<td>LoginPageTest@627551fb</td></tr>
+<tr>
+<td title='LoginPageTest.emptyLogin()'><b>emptyLogin</b><br>Test class: LoginPageTest<br>Test method: The phone number and password were left blank and the login button was clicked</td>
+<td></td>
+<td>22</td>
+<td>LoginPageTest@627551fb</td></tr>
+<tr>
+<td title='LoginPageTest.emptyPasswordLogin()'><b>emptyPasswordLogin</b><br>Test class: LoginPageTest<br>Test method: The password were left blank and the login button was clicked<br>Parameters: 5393509493</td>
+<td></td>
+<td>24</td>
+<td>LoginPageTest@627551fb</td></tr>
+<tr>
+<td title='LoginPageTest.succsessfulLogin()'><b>succsessfulLogin</b><br>Test class: LoginPageTest<br>Test method: Logged in with the valid user information<br>Parameters: 5393509493, 237529</td>
+<td></td>
+<td>27</td>
+<td>LoginPageTest@627551fb</td></tr>
+<tr>
+<td title='LoginPageTest.missingNumber()'><b>missingNumber</b><br>Test class: LoginPageTest<br>Test method: The phone number was sent with a missing character<br>Parameters: 539350949, 237529</td>
+<td></td>
+<td>27</td>
+<td>LoginPageTest@627551fb</td></tr>
+<tr>
+<td title='LoginPageTest.emptyPhoneNumberLogin()'><b>emptyPhoneNumberLogin</b><br>Test class: LoginPageTest<br>Test method: The phone number were left blank and the login button was clicked<br>Parameters: 237529</td>
+<td></td>
+<td>25</td>
+<td>LoginPageTest@627551fb</td></tr>
+<tr>
+<td title='LoginPageTest.nonMemberLogin()'><b>nonMemberLogin</b><br>Test class: LoginPageTest<br>Test method: The login button was clicked with the user who doesn't have a membership<br>Parameters: 5000000000, 237529</td>
+<td></td>
+<td>29</td>
+<td>LoginPageTest@627551fb</td></tr>
+<tr>
+<td title='LoginPageTest.missingPassword()'><b>missingPassword</b><br>Test class: LoginPageTest<br>Test method: The password was sent with a missing character<br>Parameters: 5393509493, 12345</td>
+<td></td>
+<td>27</td>
+<td>LoginPageTest@627551fb</td></tr>
+</table><p>
+</body>
+</html>
